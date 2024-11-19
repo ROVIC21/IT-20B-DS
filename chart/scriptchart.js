@@ -119,6 +119,6 @@ class ChartManager {
   }
   
  
-  const chartManager = new ChartManager('datachart.json');
+  const chartManager = new ChartManager('phonechart.json');
   chartManager.fetchData().then(() => chartManager.initializeCharts());
   
